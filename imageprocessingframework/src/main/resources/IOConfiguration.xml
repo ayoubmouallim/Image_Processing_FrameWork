@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+    "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+    <bean id="filter1"  class="com.framework.imageprocessingframework.filter.FilterImpl1"></bean>
+    <bean id="filter2"  class="com.framework.imageprocessingframework.filter.FilterImpl2"></bean>
+    <bean id="filterDefault" class="com.framework.imageprocessingframework.filter.FilterDefaultImpl"></bean>
+    <bean id="compress1" class="com.framework.imageprocessingframework.compress.CompressChild1"></bean>
+    <bean id="compress2" class="com.framework.imageprocessingframework.compress.CompressChild2"></bean>
+
+</beans>
